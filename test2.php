@@ -11,6 +11,6 @@ $driver = RemoteWebDriver::create($host, $capabilities, 5000);
 // navigate to 'http://www.seleniumhq.org/'
 $driver->get('http://localhost:8090/test.php');
 // adding cookie
-$driver->findElement(WebDriverBy::xpath("//*/text()[normalize-space(.)='Hello Worl!']/parent::*"))->click();
+$driver->findElement(WebDriverBy::xpath("//*/text()[normalize-space(.)='Hello Worldd!']/parent::*"))->click();
 $driver->quit();
 
