@@ -9,7 +9,7 @@ $host = 'http://localhost:4444/wd/hub'; // this is the default
 $capabilities = DesiredCapabilities::chrome();
 $driver = RemoteWebDriver::create($host, $capabilities, 5000);
 // navigate to 'http://www.seleniumhq.org/'
-$driver->get('http://localhost:8090/test/test2.php');
+$driver->get('http://localhost:8090/test2.php');
 // adding cookie
 $driver->findElement(WebDriverBy::xpath("//*/text()[normalize-space(.)='Hello World!']/parent::*"))->click();
 $driver->quit();
