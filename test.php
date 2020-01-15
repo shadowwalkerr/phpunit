@@ -12,7 +12,7 @@
 
 <?php
 
-echo "Hello Worlddd!";
+echo "Hello World!";
 
 ?>
 
